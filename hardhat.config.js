@@ -1,4 +1,5 @@
-require('@nomicfoundation/hardhat-toolbox')
+require('@nomicfoundation/hardhat-toolbox');
+require('dotenv').config(); // <-- 1. ADD THIS LINE
 
 module.exports = {
   defaultNetwork: 'localhost',
@@ -9,7 +10,8 @@ module.exports = {
     },
     bitfinity: {
       url: 'https://testnet.bitfinity.network',
-      accounts: [''],
+      // v-- 2. CHANGE THIS LINE
+      accounts: [process.env.PRIVATE_KEY], 
       chainId: 355113,
     },
   },
@@ -25,4 +27,4 @@ module.exports = {
   mocha: {
     timeout: 40000,
   },
-}
+};

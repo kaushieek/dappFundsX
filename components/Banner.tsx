@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { MdSunnySnowing } from 'react-icons/md'
 
-const IMAGE_BANNER = 'https://cdn.pixabay.com/photo/2016/11/14/04/14/monks-1822569_1280.jpg'
+const IMAGE_BANNER = 'https://www.usatoday.com/gcdn/-mm-/3b8b0abcb585d9841e5193c3d072eed1e5ce62bc/c=0-30-580-356/local/-/media/2017/10/05/USATODAY/usatsports/glass-jar-full-of-cois-with-donate-written-on-it-charity-donation-philanthropy_large.jpg?width=1200&disable=upscale&format=pjpg&auto=webp'
 const Banner: React.FC<{ mine?: boolean }> = ({ mine }) => {
   return (
     <div
@@ -28,7 +28,7 @@ const Banner: React.FC<{ mine?: boolean }> = ({ mine }) => {
         transition duration-300 ease-in-out hover:bg-green-600 hover:text-white"
         >
           <MdSunnySnowing size={25} />
-          <span>Start a Dapp Fund</span>
+          <span>Start a Crowd Funding</span>
         </Link>
       </div>
     </div>

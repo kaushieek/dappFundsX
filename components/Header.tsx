@@ -21,7 +21,7 @@ const Header: React.FC = () => {
               href="/"
             >
               <MdSunnySnowing size={25} />
-              <span className='hidden sm:flex'>Dapp Funds</span>
+              <span className='hidden sm:flex'>FundX</span>
             </Link>
 
             <ConnectBtn />

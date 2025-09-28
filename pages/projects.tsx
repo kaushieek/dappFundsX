@@ -26,7 +26,7 @@ const Page: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Charity Tracker</title>
+        <title>FundX</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner mine />
